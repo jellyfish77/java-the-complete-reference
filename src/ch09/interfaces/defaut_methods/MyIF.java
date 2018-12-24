@@ -10,4 +10,9 @@ public interface MyIF {
 	default String getString() {
 		return "Default String";
 	}
+
+	// This is a static interface method.
+	static int getDefaultNumber() {
+		return 0;
+	}
 }
